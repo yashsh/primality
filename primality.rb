@@ -58,6 +58,9 @@ class Primality
     (0..spaces).map {padding += " "}
 
     #print header row
+    puts ""
+    puts "Multiplication table for first N prime numbers"
+    puts ""
     print padding + " "
     primes.each do |row|
       print_data(row, padding)
